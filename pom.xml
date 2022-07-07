@@ -14,11 +14,11 @@
 
 	 <distributionManagement>
    <!-- use the following if you're not using a snapshot version. -->
-   <repository>
-     <id>nexus</id>
-     <name>nexus_release</name>
-     <url>http://3.0.139.116:8081/repository/spring3hibernate-release/</url>
-   </repository>
+ #  <repository>
+ #    <id>nexus</id>
+ #    <name>nexus_release</name>
+ #    <url>http://3.0.139.116:8081/repository/spring3hibernate-release/</url>
+ #  </repository>
 	<snapshotRepository>
           <id>nexus</id>
           <name>nexus_snapshot</name>
@@ -155,7 +155,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<version>java_app-SNAPSHOT</version>
+	<version>java_app</version>
 	<name>Spring3HibernateApp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
