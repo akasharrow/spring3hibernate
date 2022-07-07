@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>env</groupId>
-	<artifactId>${env.environment}</artifactId>
+	<artifactId>${environment}</artifactId>
 	<packaging>war</packaging>
 
 	<scm>
@@ -14,11 +14,11 @@
 
 	 <distributionManagement>
    <!-- use the following if you're not using a snapshot version. -->
- #  <repository>
- #    <id>nexus</id>
- #    <name>nexus_release</name>
- #    <url>http://3.0.139.116:8081/repository/spring3hibernate-release/</url>
- #  </repository>
+   <repository>
+     <id>nexus</id>
+     <name>nexus_release</name>
+     <url>http://3.0.139.116:8081/repository/spring3hibernate-release/</url>
+   </repository>
 	<snapshotRepository>
           <id>nexus</id>
           <name>nexus_snapshot</name>
